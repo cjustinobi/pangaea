@@ -11,11 +11,11 @@ export default {
     },
     openNav() {
       const width = this.windowWidth > 767 ? '650px' : '300px'
-      document.getElementById("mySidenav").style.width = width;
+      document.getElementById("app-sidenav").style.width = width;
       document.getElementById("main").style.marginRight = width;
     },
     closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("app-sidenav").style.width = "0";
       document.getElementById("main").style.marginRight= "0";
     },
   },

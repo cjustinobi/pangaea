@@ -1,7 +1,7 @@
 <template>
   <div >
-    <button class="checkout-btn" @click="openNav">Checkout</button>
-    <div id="mySidenav" class="sidenav">
+    <button class="checkout-btn" @click="openNav">MY CART</button>
+    <div id="app-sidenav" class="sidenav">
       <Cart @closeNav="closeNav"/>
     </div>
 
@@ -47,7 +47,7 @@
   }
 
   #main {
-    transition: margin-left .5s;
+    transition: margin-right .5s;
     padding: 16px;
   }
 
